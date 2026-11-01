@@ -1,7 +1,7 @@
-const CACHE_PREFIX = 'idr-aud-shell-';
-const CACHE = CACHE_PREFIX + 'v1';
+const CACHE_PREFIX = 'currency-converter-shell-';
+const CACHE = CACHE_PREFIX + 'v2';
 const APP = new URL('./', self.location.href);
-const SHELL = ['./', './index.html', './pwa.js', './manifest.webmanifest', './icon-192.png', './icon-512.png'];
+const SHELL = ['./', './index.html', './pwa.js', './manifest.webmanifest', './icon-v2-180.png', './icon-v2-192.png', './icon-v2-512.png'];
 self.addEventListener('install', event => {
   event.waitUntil(caches.open(CACHE).then(cache => cache.addAll(SHELL)));
 });

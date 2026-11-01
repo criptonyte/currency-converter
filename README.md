@@ -1,6 +1,8 @@
-# IDR to AUD
+# Currency Converter
 
-A mobile currency calculator, based on the supplied Claude HTML artifact.
+A simple mobile currency calculator with offline support and local spending history. Currently supports Indonesian rupiah (IDR) to Australian dollars (AUD); its name and icon allow future currency expansion.
+
+Live app: https://criptonyte.github.io/currency-converter/
 
 ## Install on Android
 
